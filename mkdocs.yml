@@ -1,28 +1,46 @@
-site_name: Lập trình - Khu học mở
+site_name: Tự học khoa học máy tính & lập trình - Khu học mở
 site_description: vozer vozer vozer vozer vozer vozer vozer
 site_author: khuhocmo
-repo_url: https://github.com/daihocmo/awesome-lap-trinh
-repo_name: Đóng góp cho trang trên Github
+repo_url: https://github.com/daihocmo/khmt-lt
+repo_name: Đóng góp trên Github
 
 nav:
   - 'Trang chủ': 
-    - 'Tổng hợp': 'index.md'
+    - 'Trang chủ': 'index.md'
+  - 'Cơ bản':
+    - 'Bài học vỡ lòng': 'co-ban/bat-dau.md'
+    - 'Tư duy lập trình': 'co-ban/tu-duy-lap-trinh.md'
+    - 'Ghi nhớ': 'co-ban/ghi-nho.md'
+    - 'Nhật ký code': 'co-ban/nhat-ky-code.md'
+    - 'Cách lên kế hoạch': 'co-ban/cach-len-ke-hoach.md'
+    - 'Cách để đọc Documentation': 'co-ban/cach-doc-docs.md'
+    - 'Cách đặt câu hỏi': 'co-ban/cach-dat-cau-hoi.md'
+    - 'Làm thật nhiều dự án': 'co-ban/lam-that-nhieu-du-an.md'
+    - 'Tìm hiểu thêm': 'co-ban/tim-hieu-them.md'
+  - 'Khoa học máy tính':
+    - 'Chương trình học': 'khmt/index.md'
   - 'Định hướng':
+    - 'Các định hướng chuyên ngành': 'dinh-huong/index.md'
     - 'Mobile':
-        - 'Native iOS (Swift)': 
-          - 'Định hướng': 'dinh-huong/swift/index.md'  # Adding Swift inside Mobile
-          - 'Nền tảng Swift': 'dinh-huong/swift/swift-foundation.md'  
-          - 'UIKit': 'dinh-huong/swift/swift-uikit.md'  
-          - 'SwiftUI': 'dinh-huong/swift/swift-swiftui.md'
-        - 'Native Android (Kotlin)':
-          - 'Định hướng': 'dinh-huong/kotlin/index.md'  # Adding Swift inside Mobile
-          - 'Nền tảng Kotlin': 'dinh-huong/kotlin/kotlin-foundation.md'
+      - 'Native iOS (Swift)': 
+        - 'Định hướng': 'dinh-huong/swift/index.md'  # Adding Swift inside Mobile
+        - 'Nền tảng Swift': 'dinh-huong/swift/swift-foundation.md'  
+        - 'UIKit': 'dinh-huong/swift/swift-uikit.md'  
+        - 'SwiftUI': 'dinh-huong/swift/swift-swiftui.md'
+        - 'Swift nâng cao': 'dinh-huong/swift/swift-advance.md'
+        - 'Swift Reference': 'dinh-huong/swift/swift-reference.md'
+      - 'Native Android (Kotlin)':
+        - 'Định hướng': 'dinh-huong/kotlin/index.md'  # Adding Swift inside Mobile
+        - 'Nền tảng Kotlin': 'dinh-huong/kotlin/kotlin-foundation.md'
     - 'Web': 
-      - 'Fullstack JavaScript': 'dinh-huong/fullstack-js/index.md'
-  - 'Môn học':
-    - 'Hệ thống phân tán': 'khoa-hoc/he-thong-phan-tan.md'
+      - 'Fullstack': 'dinh-huong/web/fullstack.md'
+      - 'Backend': 'dinh-huong/web/backend.md'
+    - 'Game': 
+      - 'Chung': 'dinh-huong/game/index.md'
   - 'Ngôn ngữ':
     - 'Rust': 'ngon-ngu/rust.md'
+  - 'Tài nguyên':
+    - 'Tổng hợp': 'tong-hop.md'
 
       
 theme:
@@ -45,7 +63,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.instant
+    - navigation.tabs
     - navigation.sections
     - navigation.expand
     - search.suggest

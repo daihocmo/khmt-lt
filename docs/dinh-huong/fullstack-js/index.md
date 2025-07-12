@@ -1,3 +1,0 @@
-# Fullstack JS
-
-*Coming soon...*  
